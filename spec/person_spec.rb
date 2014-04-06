@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe Person do
-	subject(:person) {Person.create("John", "Smith")}
+	subject(:person) {Person.create(first_name: "John",last_name: "Smith")}
 	
 	describe :first_name do
 		it "has a first name" do
