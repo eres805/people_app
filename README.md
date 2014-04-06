@@ -1,2 +1,6 @@
-people_app
+People App
 ==========
+
+###Name: Eric Resnick
+
+###GitHub Handle: eres805
