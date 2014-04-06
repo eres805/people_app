@@ -1,0 +1,35 @@
+<%= form_for (@person) do |f| %>
+
+<%= f.label(:first_name) %>
+<%= f.text_field(:first_name) %>
+
+ <br />
+
+<%= f.label(:last_name) %>
+<%= f.text_field(:last_name) %>
+
+ <br />
+
+<%= f.label(:birthday) %>
+<%= f.date_select(:birthday) %>
+
+ <br /> 
+
+<%= f.label(:drink_attribute) %>
+<%= f.number_field(:drink_attribute) %>
+
+ <br /><br />
+
+<%= f.label(:image_url) %>
+<%= f.text_field(:image_url) %>
+
+ <br /><br />
+
+<%= f.label(:license) %>
+<%= f.check_box(:license) %>
+
+ <br /><br />
+
+ <%= f.submit %>
+
+<% end %>
