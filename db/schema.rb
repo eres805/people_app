@@ -16,10 +16,10 @@ ActiveRecord::Schema.define(version: 20140406170856) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "persons", force: true do |t|
+  create_table "people", force: true do |t|
     t.string  "first_name"
     t.string  "last_name"
-    t.string  "birthday"
+    t.date    "birthday"
     t.integer "drink_attribute"
     t.string  "image_url"
     t.boolean "license"
